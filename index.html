@@ -15,11 +15,11 @@
             <form action="/path/to/server" method="POST">
                 <div>
                     <label for="yourname">Your Name (required)</label>
-                    <input type="text" id="yourname" name="yourname" placeholder="your name" required>
+                    <input class="width" type="text" id="yourname" name="yourname" placeholder="your name" required>
                 </div>
                 <div>
                    <label for="email"> Your Email (required)</label>
-                   <input type="text" id="email" name="email" placeholder="your email" required>
+                   <input class="width" type="text" id="email" name="email" placeholder="your email" required>
                </div>
                <fieldset>
                     <legend>What's this all about?</legend>
@@ -31,7 +31,7 @@
                 </fieldset>
                 <div>
                     <label for="Subject"> Subject</label>
-                    <select name="subject" id="Subject">
+                    <select class="width" name="subject" id="Subject">
                       <option value="subject">Please select the subject</option>
                       <option value="login"> I have trouble with the login</option>
                       <option value="photo"> I can't upload photos</option>
@@ -40,7 +40,7 @@
                 </div>
                 <div>
                     <label for="message">Your Message </label>
-                    <textarea name="your message" id="message" cols="50" rows="10">          </textarea>
+                    <textarea name="your message" id="message" cols="50" rows="10"></textarea>
                 </div>
                     <input type="submit" value="SEND" formnovalidate="formnovalidate" class="send">
             </form>
